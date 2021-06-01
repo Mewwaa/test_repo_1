@@ -4,6 +4,7 @@ import List from '.test_repo_1/list.jsx';
 import Comp1 from './comp1.jsx';
 import Buto from "./button.jsx";
 import Text from "./text.jsx";
+import Paragraph from "./paragraph.jsx";
 
 
 
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Buto/>
     <List/>
     <Test/>
+    <Paragraph/>
   </div>
 
  
