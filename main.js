@@ -14,11 +14,15 @@ import List from './list.jsx';
 import Comp1 from './comp1.jsx';
 import Buto from "./button.jsx";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // import List from '.test_repo_1/list.jsx';
 >>>>>>> 9c0eb74 (LISTA)
 =======
 // import List from '.test_repo_1/list.jsx';
+=======
+
+>>>>>>> 088fd26 (mian poprawiony)
 
 
 
