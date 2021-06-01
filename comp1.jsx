@@ -1,6 +1,6 @@
 import React from 'react'; // import potrzebnych bibliotek
 
-class website extends React.Component { // klasa będąca komponentem
+class Comp1 extends React.Component { // klasa będąca komponentem
   constructor(props) { // konstruktor klasy, przechowuje stan danego komponentu
     super(props);
   }
@@ -14,4 +14,4 @@ class website extends React.Component { // klasa będąca komponentem
   }
 }
 
-export default website; // eksport komponentu, zeby mozna go było uzywać w innych plikach
+export default Comp1; // eksport komponentu, zeby mozna go było uzywać w innych plikach

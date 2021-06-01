@@ -1,9 +1,15 @@
-import website from "./test_repo_1/react.jsx";
+import React from 'react'; // import potrzebnych bibliotek
+import ReactDOM from 'react-dom';  // import potrzebnych bibliotek
 
+import Comp1 from './comp1.jsx';
+import Buto from "./button.jsx";
 
 
 ReactDOM.render(
   <div>
-    <website />
+    <Comp1/>
+    <Buto/>
   </div>
+
+ 
 , document.getElementById('app'));
