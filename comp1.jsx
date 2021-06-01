@@ -5,16 +5,16 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     super(props);
   }
 
-  hey() {
+  yes() {
     console.log("Hello");
   }
 
   render() { // to będzie zwracane w htmlu!
     return (
       <div>
-        Hello Again!
+        <b>Hi there!</b>
         <p>Hello</p>
-        <button onClick={() => this.hey()}>Click me!</button>
+        <button onClick={() => this.yes()}>Click me!</button>
       </div>
     );
   }
