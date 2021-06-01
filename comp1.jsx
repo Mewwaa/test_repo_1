@@ -30,6 +30,9 @@ class Comp1 extends React.Component { // klasa będąca komponentem
         <p>Co tam u was?</p>
         <p>Paragraf</p>
         <p>Coś</p>
+
+        
+        <p>numer 3</p>
       </div>
     );
   }
