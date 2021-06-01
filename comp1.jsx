@@ -26,6 +26,10 @@ class Comp1 extends React.Component { // klasa będąca komponentem
       <button onClick={() => this.hello()}>Click me!</button>
        <p>Co tam u was?</p>
 
+        <button onClick={() => this.hello()}>Click me!</button>
+        <p>Co tam u was?</p>
+        <p>Paragraf</p>
+        <p>Coś</p>
       </div>
     );
   }
