@@ -5,13 +5,18 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     super(props);
   }
 
-  hello() {
-    console.log("Hello");
+  vixa() {
+    console.log("Dobry wieczor Polska");
   }
 
   render() { // to będzie zwracane w htmlu!
     return (
       <div>
+
+        <b>Hi there!</b>
+        <b>Hello</b>
+        <button onClick={() => this.vixa()}>Click me!</button>
+
         Hello Again!
         <p>heyyyyyy</p>
         <button type="button">Click Me!</button>
@@ -23,10 +28,10 @@ class Comp1 extends React.Component { // klasa będąca komponentem
 
         fsdgsgsdgsdf
         <h3>glasld</h3>
-      <button onClick={() => this.hello()}>Click me!</button>
+      <button onClick={() => this.vixa()}>Click me!</button>
        <p>Co tam u was?</p>
 
-        <button onClick={() => this.hello()}>Click me!</button>
+        <button onClick={() => this.vixa()}>Click me!</button>
         <p>Co tam u was?</p>
         <p>Paragraf</p>
         <p>Coś</p>
