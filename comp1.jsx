@@ -5,7 +5,7 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     super(props);
   }
 
-  hello() {
+  hey() {
     console.log("Hello");
   }
 
@@ -13,8 +13,8 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     return (
       <div>
         Hello Again!
-        <p>heyyyyyy</p>
-        <button onClick={() => this.hello()}>Click me!</button>
+        <p>Hello</p>
+        <button onClick={() => this.hey()}>Click me!</button>
       </div>
     );
   }
