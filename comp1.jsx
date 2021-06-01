@@ -14,6 +14,7 @@ class Comp1 extends React.Component { // klasa będąca komponentem
         <p>2</p>
         <p>3</p>
         <p>Siema</p>
+        <h1>Strona</h1>
       </div>
     );
   }
