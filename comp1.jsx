@@ -15,6 +15,11 @@ class Comp1 extends React.Component { // klasa będąca komponentem
 
         <h1>eloo</h1>
 
+
+
+
+        fsdgsgsdgsdf
+        <h3>glasld</h3>
       </div>
     );
   }
