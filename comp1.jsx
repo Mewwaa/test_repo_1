@@ -9,6 +9,7 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     return (
       <div>
         Hello Again!
+        <p>heyyyyyy</p>
       </div>
     );
   }
