@@ -9,6 +9,7 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     return (
       <div>
         Hello Again!
+        <input type="text" value="wpisz tekst"></input>
       </div>
     );
   }
