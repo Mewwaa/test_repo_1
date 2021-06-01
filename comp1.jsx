@@ -5,12 +5,15 @@ class Comp1 extends React.Component { // klasa będąca komponentem
     super(props);
   }
 
+  hello() {
+    console.log("Hello");
+  }
+
   render() { // to będzie zwracane w htmlu!
     return (
       <div>
         Hello Again!
         <p>heyyyyyy</p>
-
         <button type="button">Click Me!</button>
 
         <h1>eloo</h1>
@@ -20,6 +23,9 @@ class Comp1 extends React.Component { // klasa będąca komponentem
 
         fsdgsgsdgsdf
         <h3>glasld</h3>
+      <button onClick={() => this.hello()}>Click me!</button>
+       <p>Co tam u was?</p>
+
       </div>
     );
   }
